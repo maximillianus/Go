@@ -1,0 +1,7 @@
+run by using go run "script_name.go"
+
+OR
+
+build the script by using "go build script_name.go"
+then change script permission "chmod 755 script_name.go"
+then run using "./script_name.go"
