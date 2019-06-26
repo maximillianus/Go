@@ -1,3 +1,4 @@
+# Tips to run
 run by using go run "script_name.go"
 
 OR
@@ -5,3 +6,8 @@ OR
 build the script by using "go build script_name.go"
 then change script permission "chmod 755 script_name.go"
 then run using "./script_name.go"
+
+# Tips on logging to a file
+# 1st >> logs the stdout. 2>> logs the error
+- go run script.go >> stdout.log 2>> stderr.log
+- go build script.go THEN `./script >> stdout.log 2>> stderr.log

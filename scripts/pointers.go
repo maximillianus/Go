@@ -38,7 +38,9 @@ func main() {
 	// pointing a variable to address of i, making it into a pointer var
 	p := &i
 	fmt.Println("What is value of p:", p)
+	fmt.Println("\tp pointing to address i has value of address i")
 	fmt.Println("What is value of *p:", *p)
-	fmt.Println("What is value of &p:", &p)
+	fmt.Println("\t*p gives the value in the address pointed by p")
+	fmt.Println("&p shows address of pointer p:", &p)
 
 }
